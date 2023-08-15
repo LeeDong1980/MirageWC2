@@ -1,0 +1,20 @@
+{
+    "name": "AnkrSDK.WalletConnect2",
+    "rootNamespace": "",
+    "references": [
+        "WalletConnectSharp.VersionShared",
+        "WalletConnectSharp.Core",
+        "UniTask",
+        "WalletConnectSharp.Unity",
+        "AnkrSDK.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

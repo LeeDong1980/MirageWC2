@@ -1,0 +1,8 @@
+{
+  "name": "AnkrSDK.MirageAPI.MirageID",
+  "references": [
+    "AnkrSDK.MirageAPI.Data",
+    "AnkrSDK.Utils",
+    "UniTask"
+  ]
+}

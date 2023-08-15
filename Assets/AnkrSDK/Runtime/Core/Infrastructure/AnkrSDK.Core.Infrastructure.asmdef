@@ -1,0 +1,10 @@
+{
+  "name": "AnkrSDK.Core.Infrastructure",
+  "references": [
+    "AnkrSDK.Data",
+    "endel.nativewebsocket",
+    "UniTask",
+    "WalletConnectSharp.Core",
+    "WalletConnectSharp.VersionShared"
+  ]
+}

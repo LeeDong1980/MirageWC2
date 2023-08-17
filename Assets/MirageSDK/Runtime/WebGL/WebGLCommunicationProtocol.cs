@@ -61,22 +61,22 @@ namespace MirageSDK.WebGL
 
 		private void ReceiveMessages()
 		{
-			var json = WebGLInterlayer.GetResponses();
-			if (String.IsNullOrEmpty(json))
-			{
-				return;
-			}
+			//var json = WebGLInterlayer.GetResponses();
+			//if (String.IsNullOrEmpty(json))
+			//{
+			//	return;
+			//}
 
-			var messages = JsonConvert.DeserializeObject<WebGLMessageDTO[]>(json);
+			//var messages = JsonConvert.DeserializeObject<WebGLMessageDTO[]>(json);
 
-			foreach (var message in messages)
-			{
-				if (_completionSources.ContainsKey(message.id))
-				{
-					var completionSource = _completionSources[message.id];
-					completionSource.TrySetResult(message);
-				}
-			}
+			//foreach (var message in messages)
+			//{
+			//	if (_completionSources.ContainsKey(message.id))
+			//	{
+			//		var completionSource = _completionSources[message.id];
+			//		completionSource.TrySetResult(message);
+			//	}
+			//}
 		}
 
 		private void CompleteAllSources()

@@ -92,7 +92,7 @@ namespace MirageSDK.WebGL
 		public async UniTask<WalletsStatus> GetWalletsStatus()
 		{
 			var id = _protocol.GenerateId();
-			WebGLInterlayer.GetWalletsStatus(id);
+			//WebGLInterlayer.GetWalletsStatus(id);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -119,7 +119,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(transaction);
-			WebGLInterlayer.SendTransaction(id, payload);
+			//WebGLInterlayer.SendTransaction(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -135,7 +135,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(transaction);
-			WebGLInterlayer.GetContractData(id, payload);
+			//WebGLInterlayer.GetContractData(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -151,7 +151,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(transaction);
-			WebGLInterlayer.EstimateGas(id, payload);
+			//WebGLInterlayer.EstimateGas(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -167,7 +167,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 
-			WebGLInterlayer.SignMessage(id, JsonConvert.SerializeObject(signProps));
+			//WebGLInterlayer.SignMessage(id, JsonConvert.SerializeObject(signProps));
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -182,7 +182,7 @@ namespace MirageSDK.WebGL
 		public async UniTask<string> GetDefaultAccount(string network = null)
 		{
 			var id = _protocol.GenerateId();
-			WebGLInterlayer.GetAddresses(id);
+			//WebGLInterlayer.GetAddresses(id);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -198,7 +198,7 @@ namespace MirageSDK.WebGL
 		public async UniTask<BigInteger> GetChainId()
 		{
 			var id = _protocol.GenerateId();
-			WebGLInterlayer.RequestChainId(id);
+			//WebGLInterlayer.RequestChainId(id);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -214,7 +214,7 @@ namespace MirageSDK.WebGL
 		public async UniTask<Transaction> GetTransaction(string transactionHash)
 		{
 			var id = _protocol.GenerateId();
-			WebGLInterlayer.GetTransaction(id, transactionHash);
+			//WebGLInterlayer.GetTransaction(id, transactionHash);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -231,7 +231,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(networkData);
-			WebGLInterlayer.AddChain(id, payload);
+			//WebGLInterlayer.AddChain(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -245,7 +245,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(networkData);
-			WebGLInterlayer.AddChain(id, payload);
+			//WebGLInterlayer.AddChain(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -259,7 +259,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(networkData);
-			WebGLInterlayer.SwitchChain(id, payload);
+			//WebGLInterlayer.SwitchChain(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -273,7 +273,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(callObject);
-			WebGLInterlayer.CallMethod(id, payload);
+			//WebGLInterlayer.CallMethod(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -291,7 +291,7 @@ namespace MirageSDK.WebGL
 		{
 			var id = _protocol.GenerateId();
 			var payload = JsonConvert.SerializeObject(filters);
-			WebGLInterlayer.GetEvents(id, payload);
+			//WebGLInterlayer.GetEvents(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -307,7 +307,7 @@ namespace MirageSDK.WebGL
 		public async UniTask<TransactionReceipt> GetTransactionReceipt(string transactionHash)
 		{
 			var id = _protocol.GenerateId();
-			WebGLInterlayer.GetTransactionReceipt(id, transactionHash);
+			//WebGLInterlayer.GetTransactionReceipt(id, transactionHash);
 
 			var answer = await _protocol.WaitForAnswer(id);
 
@@ -329,7 +329,7 @@ namespace MirageSDK.WebGL
 			};
 
 			var payload = JsonConvert.SerializeObject(connectionProps);
-			WebGLInterlayer.CreateProvider(id, payload);
+			//WebGLInterlayer.CreateProvider(id, payload);
 
 			var answer = await _protocol.WaitForAnswer(id);
 

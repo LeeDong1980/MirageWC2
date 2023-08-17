@@ -1309,19 +1309,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 571412825}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2030729728}
-        m_TargetAssemblyTypeName: TestPlaceNFT, Assembly-CSharp
-        m_MethodName: PlaceNFT
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &571412825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3277,19 +3265,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1068918501}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2030729728}
-        m_TargetAssemblyTypeName: TestPlaceNFT, Assembly-CSharp
-        m_MethodName: PickupNFT
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1068918501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6734,19 +6710,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2036629079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2030729728}
-        m_TargetAssemblyTypeName: TestPlaceNFT, Assembly-CSharp
-        m_MethodName: ApproveNFTToNanio
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2036629079
 MonoBehaviour:
   m_ObjectHideFlags: 0
